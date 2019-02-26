@@ -3,9 +3,13 @@ zuul:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
   routes:
-    cliente:
+    users:
       path: /users/**
       serviceId: users
+      stripPrefix: false
+    cards:
+      path: /cards/**
+      serviceId: cards
       stripPrefix: false
       
 eureka:
