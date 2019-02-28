@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://db:3306/users
+    url: jdbc:mysql://db:3306/users?useSSL=false
     password: dbuserspassword
     username: dbusers
     driver-class-name: com.mysql.cj.jdbc.Driver
