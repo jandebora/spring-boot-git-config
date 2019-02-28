@@ -18,3 +18,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-admin-service:8761/eureka/
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /users/v2/api-docs
