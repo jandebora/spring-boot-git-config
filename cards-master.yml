@@ -19,6 +19,11 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-admin-service:8761/eureka/
 
+swagger:
+  api-version: 1.0
+  title: Card API
+  description: Documentation Card API v${swagger.api-version}
+
 springfox:
   documentation:
     swagger:

@@ -18,6 +18,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-admin-service:8761/eureka/
+      
+swagger:
+  api-version: 1.0
+  title: User API
+  description: Documentation User API v${swagger.api-version}
 
 springfox:
   documentation:
